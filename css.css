@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    color: white;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1130px;
+    margin: 0 auto;
+}
+
+.main {
+    height: 785px;
+    background: url(BR-pt-20220124-popsignuptwoweeks-perspective_alpha_website_medium.jpg) center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    height: 90vh;
+}
+
+.main h1 {
+    font-size: 36px;
+    max-width: 510px;
+}
+
+.gradiante {
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient( to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.main-child {
+    z-index: 10;
+    display: grid;
+    justify-items: center
+}
+
+.main-child span {
+    font-size: 26px;
+}
+
+.main-child p {
+    font-size: 19px;
+}
+
+.form-ct {
+    display: grid;
+    grid-template-columns: 500px 250px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.form-ct input {
+    padding: 20px 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    border-radius: 4px;
+}
+
+.form-ct input:hover {
+    transition: 0.6s;
+    background: #222;
+    color: gray;
+}
+
+.form-ct button {
+    background-color: #cc0000;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+.form-ct button:hover {
+    cursor: pointer;
+}
+
+.form-ct button:active {
+    color: red;
+    background-color: white;
+    transition: ease 0.2s;
+}
+
+.header img {
+    width: 200px;
+    height: 40px;
+}
+
+.header {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 28px;
+}
+
+.header a {
+    text-decoration: none;
+    background-color: #cc0000;
+    color: white;
+    width: 50px;
+    height: 25px;
+    align-self: flex-start;
+    padding-top: 5px;
+    padding-left: 4px;
+    border-radius: 4px;
+}
+
+.header a:hover {
+    background-color: #000000;
+}
+
+.header a:active {
+    background-color: #ff0e0e;
+}
+
+.section h1 {
+    font-size: 50px;
+    margin-bottom: 16px;
+}
+
+.section p {
+    font-size: 26px;
+}
+
+.section {
+    background: black;
+    padding: 4rem 0;
+    border-top: 8px solid #222;
+    border-bottom: 8px solid #222;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    align-items: center;
+}
+
+.img-tv {
+    position: relative;
+}
+
+.img-tv img {
+    position: relative;
+    z-index: 1;
+}
+
+.video-tv {
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    width: 400px;
+}
+
+.divice-tv {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 340px;
+}
+
+footer {
+    border-top: solid 8px #222;
+    background: black;
+    height: 70vh;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 300px;
+}
